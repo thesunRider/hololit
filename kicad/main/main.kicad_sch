@@ -1201,6 +1201,148 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "Connector_Generic:Conn_01x02"
+			(pin_names
+				(offset 1.016)
+				(hide yes)
+			)
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "J"
+				(at 0 2.54 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "Conn_01x02"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "~"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_keywords" "connector"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "ki_fp_filters" "Connector*:*_1x??_*"
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "Conn_01x02_1_1"
+				(rectangle
+					(start -1.27 1.27)
+					(end 1.27 -3.81)
+					(stroke
+						(width 0.254)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(rectangle
+					(start -1.27 0.127)
+					(end 0 -0.127)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(rectangle
+					(start -1.27 -2.413)
+					(end 0 -2.667)
+					(stroke
+						(width 0.1524)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin passive line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "Pin_1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin passive line
+					(at -5.08 -2.54 0)
+					(length 3.81)
+					(name "Pin_2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "Device:C"
 			(pin_numbers
 				(hide yes)
@@ -1926,6 +2068,160 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:K3-1391B-51"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "SW"
+				(at 0 7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "K3-1391B-51"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SW-TH_K3-1391B-51"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1391B-51_C92656.html"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C92656"
+				(at 0 -15.24 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "K3-1391B-51_0_1"
+				(rectangle
+					(start -3.81 5.08)
+					(end 3.81 -5.08)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(circle
+					(center -2.54 3.81)
+					(radius 0.38)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 2.54 0)
+					(length 2.54)
+					(name "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 0 0)
+					(length 2.54)
+					(name "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at -6.35 -2.54 0)
+					(length 2.54)
+					(name "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "3"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 6.35 0 180)
+					(length 2.54)
+					(name "EH"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "4"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:RK10J11R0A0H"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -2439,9 +2735,19 @@
 			(embedded_fonts no)
 		)
 	)
-	(text "Ask what the button near the pot is supposed to do, near the switch\nAsk if his jst connector is this: C8877\nAdk what the JST conenctions are, they seem not connected properly to GND DAT CLK and VIN"
+	(text "Trace width calculator:\nhttps://www.advancedpcb.com/en-us/tools/trace-width-calculator/"
+		(exclude_from_sim no)
+		(at 231.14 178.562 0)
+		(effects
+			(font
+				(size 1.27 1.27)
+			)
+		)
+		(uuid "072812c9-719e-4170-a543-2b14ef4a8d4d")
+	)
+	(text "Ask what the button near the pot is supposed to do, near the switch\nAsk if his jst connector is this: C8877\nAsk what the JST conenctions are, they seem not connected properly to GND DAT CLK and VIN\nUse 2oz copper while manufacturing"
 		(exclude_from_sim yes)
-		(at 230.378 170.434 0)
+		(at 230.378 171.704 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2468,34 +2774,40 @@
 		(uuid "2c8a6888-020b-4e66-bbe6-fb6a89d13d3c")
 	)
 	(junction
+		(at 118.11 78.74)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "422ee45b-e28b-4afc-9a3f-66119263bb88")
+	)
+	(junction
 		(at 110.49 123.19)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58af3478-8a6d-4983-a0e4-86b566401004")
 	)
 	(junction
-		(at 134.62 78.74)
+		(at 130.81 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "5cabc7d4-84f5-4f35-beee-0f4c4fb0374e")
+		(uuid "6883cae3-0bd3-4e75-ba8e-1a4a0c281027")
 	)
 	(junction
-		(at 86.36 120.65)
+		(at 149.86 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
-		(uuid "67d60dbb-8b63-4ea4-9b23-d2ddc9782b57")
-	)
-	(junction
-		(at 118.11 78.74)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "858c71a8-d8b7-4cea-8a74-5e1d2c8bda1f")
+		(uuid "7a087f27-09db-4760-b9ec-ebd2b82f39c0")
 	)
 	(junction
 		(at 104.14 78.74)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "b589cd40-fb05-4663-915e-b8205efb8eda")
+	)
+	(junction
+		(at 86.36 120.65)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "cb139df4-7140-4dc5-b7b6-76dda3826cdd")
 	)
 	(no_connect
 		(at 234.95 80.77)
@@ -2551,16 +2863,6 @@
 	)
 	(wire
 		(pts
-			(xy 130.81 78.74) (xy 134.62 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "0c675941-8dc0-4e27-93a1-02f21cbcd858")
-	)
-	(wire
-		(pts
 			(xy 78.74 116.84) (xy 78.74 120.65)
 		)
 		(stroke
@@ -2568,6 +2870,16 @@
 			(type default)
 		)
 		(uuid "0d711857-ecd1-439e-85b8-cab3dd527132")
+	)
+	(wire
+		(pts
+			(xy 130.81 78.74) (xy 130.81 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "14c21bde-0eb3-473a-b4e2-a4c42949b2f6")
 	)
 	(wire
 		(pts
@@ -2621,6 +2933,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 86.36) (xy 130.81 88.9)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "3d19c202-6593-4623-9608-8c4cb6df9dca")
+	)
+	(wire
+		(pts
 			(xy 210.82 71.12) (xy 210.82 72.13)
 		)
 		(stroke
@@ -2638,16 +2960,6 @@
 			(type default)
 		)
 		(uuid "3fc47124-ff7a-4fd4-a37f-b614fc4f4f15")
-	)
-	(wire
-		(pts
-			(xy 118.11 78.74) (xy 123.19 78.74)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "436d4844-5238-4fff-a10b-48dca400b608")
 	)
 	(wire
 		(pts
@@ -2711,6 +3023,16 @@
 	)
 	(wire
 		(pts
+			(xy 137.16 78.74) (xy 149.86 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "5d3edbac-5c52-4a72-a76b-b5894109d972")
+	)
+	(wire
+		(pts
 			(xy 104.14 64.77) (xy 104.14 66.04)
 		)
 		(stroke
@@ -2761,6 +3083,16 @@
 	)
 	(wire
 		(pts
+			(xy 130.81 69.85) (xy 137.16 69.85)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "7a75d293-7aeb-48b4-a305-6aa4bf52120f")
+	)
+	(wire
+		(pts
 			(xy 86.36 116.84) (xy 86.36 120.65)
 		)
 		(stroke
@@ -2768,16 +3100,6 @@
 			(type default)
 		)
 		(uuid "7bead456-459c-476e-b77c-c964e4e75802")
-	)
-	(wire
-		(pts
-			(xy 86.36 120.65) (xy 86.36 123.19)
-		)
-		(stroke
-			(width 0)
-			(type default)
-		)
-		(uuid "8bb417a5-069b-4c94-832b-e19ea4682aab")
 	)
 	(wire
 		(pts
@@ -2791,7 +3113,7 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 81.28) (xy 134.62 78.74)
+			(xy 149.86 81.28) (xy 149.86 78.74)
 		)
 		(stroke
 			(width 0)
@@ -2828,6 +3150,26 @@
 			(type default)
 		)
 		(uuid "9c281a8a-19dd-4c50-9d54-f2e5df3f8450")
+	)
+	(wire
+		(pts
+			(xy 86.36 120.65) (xy 86.36 123.19)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "9ce436f9-2061-4f27-9f47-31ba7c59421d")
+	)
+	(wire
+		(pts
+			(xy 78.74 120.65) (xy 86.36 120.65)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "a6650c7f-28a0-4023-9a79-43a55fe81393")
 	)
 	(wire
 		(pts
@@ -2911,6 +3253,16 @@
 	)
 	(wire
 		(pts
+			(xy 118.11 78.74) (xy 130.81 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c4fac3a7-96ed-4425-9c4e-b5f51ea9b120")
+	)
+	(wire
+		(pts
 			(xy 101.6 96.52) (xy 110.49 96.52)
 		)
 		(stroke
@@ -2951,13 +3303,33 @@
 	)
 	(wire
 		(pts
-			(xy 134.62 78.74) (xy 135.89 78.74)
+			(xy 149.86 78.74) (xy 151.13 78.74)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "d6c259d6-bb2c-4978-8e84-0148fb1688f9")
+	)
+	(wire
+		(pts
+			(xy 137.16 72.39) (xy 137.16 78.74)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "d7818e7e-1f4d-4f87-a5bb-8081ea247e74")
+	)
+	(wire
+		(pts
+			(xy 130.81 91.44) (xy 130.81 93.98)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "e24211cf-9832-4478-ac3f-f34675574c9e")
 	)
 	(wire
 		(pts
@@ -3133,7 +3505,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 135.89 78.74 0)
+		(at 151.13 78.74 0)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3143,7 +3515,7 @@
 		)
 		(uuid "592f16e2-6cd5-4fbb-80cd-ea740007004d")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 141.8991 78.74 0)
+			(at 157.1391 78.74 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -3720,6 +4092,76 @@
 			(project "main"
 				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
 					(reference "#PWR021")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "Connector_Generic:Conn_01x02")
+		(at 135.89 88.9 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "459656f2-e929-4efe-a5e5-a7535ed37539")
+		(property "Reference" "J1"
+			(at 138.43 88.8999 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "Conn_01x02"
+			(at 138.43 91.4399 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" ""
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "~"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Generic connector, single row, 01x02, script generated (kicad-library-utils/schlib/autogen/connector/)"
+			(at 135.89 88.9 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "2"
+			(uuid "4df3eb5e-d034-430e-a06f-34a2eb81ce18")
+		)
+		(pin "1"
+			(uuid "d3dac2d9-8103-4c96-80aa-052411ad6e70")
+		)
+		(instances
+			(project ""
+				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
+					(reference "J1")
 					(unit 1)
 				)
 			)
@@ -4557,33 +4999,17 @@
 		)
 	)
 	(symbol
-		(lib_id "Device:R")
-		(at 82.55 120.65 90)
+		(lib_id "power:GND")
+		(at 130.81 93.98 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
 		(on_board yes)
 		(dnp no)
 		(fields_autoplaced yes)
-		(uuid "a809d435-bc77-45c2-86f0-efc07c04eae2")
-		(property "Reference" "R39"
-			(at 82.55 114.3 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Value" "1M"
-			(at 82.55 116.84 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-			)
-		)
-		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 82.55 122.428 90)
+		(uuid "a0b4e46a-5581-44d4-8333-01d28218baa3")
+		(property "Reference" "#PWR027"
+			(at 130.81 100.33 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4591,8 +5017,16 @@
 				(hide yes)
 			)
 		)
-		(property "Datasheet" "~"
-			(at 82.55 120.65 0)
+		(property "Value" "GND"
+			(at 130.81 99.06 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" ""
+			(at 130.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4600,8 +5034,17 @@
 				(hide yes)
 			)
 		)
-		(property "Description" "Resistor"
-			(at 82.55 120.65 0)
+		(property "Datasheet" ""
+			(at 130.81 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
+			(at 130.81 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4610,15 +5053,12 @@
 			)
 		)
 		(pin "1"
-			(uuid "17970640-81cd-4c43-bf05-4032f428fb7d")
-		)
-		(pin "2"
-			(uuid "4781aa48-6bf8-4990-b220-d97b1f110f53")
+			(uuid "09b427b3-78b2-4236-be2e-1e0aaca6876c")
 		)
 		(instances
 			(project "main"
 				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
-					(reference "R39")
+					(reference "#PWR027")
 					(unit 1)
 				)
 			)
@@ -4626,7 +5066,7 @@
 	)
 	(symbol
 		(lib_id "Diode:SS34")
-		(at 127 78.74 180)
+		(at 130.81 82.55 270)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4634,7 +5074,7 @@
 		(dnp no)
 		(uuid "a8a6e153-7cfd-49c3-a835-74346c6f2d71")
 		(property "Reference" "D3"
-			(at 127.254 73.152 0)
+			(at 125.222 82.296 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4642,7 +5082,7 @@
 			)
 		)
 		(property "Value" "SS34"
-			(at 127.3175 74.93 0)
+			(at 127 82.2325 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4650,7 +5090,7 @@
 			)
 		)
 		(property "Footprint" "Diode_SMD:D_SMA"
-			(at 127 74.295 0)
+			(at 126.365 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4659,7 +5099,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.vishay.com/docs/88751/ss32.pdf"
-			(at 127 78.74 0)
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4668,7 +5108,7 @@
 			)
 		)
 		(property "Description" "40V 3A Schottky Diode, SMA"
-			(at 127 78.74 0)
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4677,7 +5117,7 @@
 			)
 		)
 		(property "LCSC Part" "C8678"
-			(at 127 78.74 0)
+			(at 130.81 82.55 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4702,7 +5142,7 @@
 	)
 	(symbol
 		(lib_id "Device:R")
-		(at 134.62 85.09 180)
+		(at 149.86 85.09 180)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -4711,7 +5151,7 @@
 		(fields_autoplaced yes)
 		(uuid "b22772b6-9d48-42f4-b022-116885496037")
 		(property "Reference" "R40"
-			(at 137.16 83.8199 0)
+			(at 152.4 83.8199 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4720,7 +5160,7 @@
 			)
 		)
 		(property "Value" "10k"
-			(at 137.16 86.3599 0)
+			(at 152.4 86.3599 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4729,7 +5169,7 @@
 			)
 		)
 		(property "Footprint" "Resistor_SMD:R_0603_1608Metric_Pad0.98x0.95mm_HandSolder"
-			(at 136.398 85.09 90)
+			(at 151.638 85.09 90)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4738,7 +5178,7 @@
 			)
 		)
 		(property "Datasheet" "~"
-			(at 134.62 85.09 0)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4747,7 +5187,7 @@
 			)
 		)
 		(property "Description" "Resistor"
-			(at 134.62 85.09 0)
+			(at 149.86 85.09 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5320,7 +5760,7 @@
 	)
 	(symbol
 		(lib_id "power:GND")
-		(at 134.62 88.9 0)
+		(at 149.86 88.9 0)
 		(unit 1)
 		(exclude_from_sim no)
 		(in_bom yes)
@@ -5329,7 +5769,7 @@
 		(fields_autoplaced yes)
 		(uuid "d0675fdf-a417-4194-8857-db7ba3c35295")
 		(property "Reference" "#PWR022"
-			(at 134.62 95.25 0)
+			(at 149.86 95.25 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5338,7 +5778,7 @@
 			)
 		)
 		(property "Value" "GND"
-			(at 134.62 93.98 0)
+			(at 149.86 93.98 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5346,7 +5786,7 @@
 			)
 		)
 		(property "Footprint" ""
-			(at 134.62 88.9 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5355,7 +5795,7 @@
 			)
 		)
 		(property "Datasheet" ""
-			(at 134.62 88.9 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5364,7 +5804,7 @@
 			)
 		)
 		(property "Description" "Power symbol creates a global label with name \"GND\" , ground"
-			(at 134.62 88.9 0)
+			(at 149.86 88.9 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5597,6 +6037,89 @@
 			(project "main"
 				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
 					(reference "SW3")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:K3-1391B-51")
+		(at 143.51 69.85 0)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "fc09db04-0935-4894-acb5-1445d32203e3")
+		(property "Reference" "SW1"
+			(at 143.51 59.69 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Value" "K3-1391B-51"
+			(at 143.51 62.23 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SW-TH_K3-1391B-51"
+			(at 143.51 80.01 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Toggle-Switches_Korean-Hroparts-Elec-K3-1391B-51_C92656.html"
+			(at 143.51 82.55 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 143.51 69.85 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C92656"
+			(at 143.51 85.09 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "4"
+			(uuid "4ad52c79-f3ae-4dbc-88b3-c8e607a662ba")
+		)
+		(pin "1"
+			(uuid "a5124d23-e5a6-433a-8300-4c07ce964129")
+		)
+		(pin "3"
+			(uuid "191db1df-60e3-4eea-a2f9-139b0d63b76c")
+		)
+		(pin "2"
+			(uuid "615556e6-ef13-4d5c-9cc8-c96bbcfd3385")
+		)
+		(instances
+			(project ""
+				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
+					(reference "SW1")
 					(unit 1)
 				)
 			)
