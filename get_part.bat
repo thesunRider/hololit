@@ -1,1 +1,1 @@
-python -m easyeda2kicad --full --lcsc_id=C92656
+python -m easyeda2kicad --full --lcsc_id=C7429691
