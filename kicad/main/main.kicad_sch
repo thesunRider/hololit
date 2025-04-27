@@ -2737,7 +2737,7 @@
 	)
 	(text "Trace width calculator:\nhttps://www.advancedpcb.com/en-us/tools/trace-width-calculator/"
 		(exclude_from_sim no)
-		(at 231.14 178.562 0)
+		(at 231.14 179.07 0)
 		(effects
 			(font
 				(size 1.27 1.27)
@@ -2745,9 +2745,9 @@
 		)
 		(uuid "072812c9-719e-4170-a543-2b14ef4a8d4d")
 	)
-	(text "Ask what the button near the pot is supposed to do, near the switch\nAsk if his jst connector is this: C8877\nAsk what the JST conenctions are, they seem not connected properly to GND DAT CLK and VIN\nUse 2oz copper while manufacturing"
+	(text "Ask what the button near the pot is supposed to do, near the switch\nAsk if his jst connector is this: C8877\nAsk what the JST conenctions are, they seem not connected properly to GND DAT CLK and VIN\nAsk for average continous current to determine the switch and trace width to use\nUse 2oz copper while manufacturing"
 		(exclude_from_sim yes)
-		(at 230.378 171.704 0)
+		(at 229.87 171.45 0)
 		(effects
 			(font
 				(size 1.27 1.27)

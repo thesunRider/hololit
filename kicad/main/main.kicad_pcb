@@ -5368,7 +5368,7 @@
 	(footprint "easyeda2kicad:SW-TH_K3-1391B-51"
 		(layer "B.Cu")
 		(uuid "b310b624-8f11-4726-95a3-d6c0879d83e8")
-		(at 164.7 92.4 90)
+		(at 159 93.65 90)
 		(property "Reference" "SW1"
 			(at 0 8.6 90)
 			(layer "B.SilkS")
