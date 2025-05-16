@@ -2350,7 +2350,7 @@
 				)
 			)
 		)
-		(property "LCSC Part" "C223907"
+		(property "LCSC Part" "C165948"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
@@ -2363,7 +2363,7 @@
 				)
 			)
 		)
-		(property "Mfr Part" "TYPE-C-31-M-14"
+		(property "Mfr Part" "TYPE-C-31-M-12"
 			(at 0 0 270)
 			(unlocked yes)
 			(layer "F.Fab")
