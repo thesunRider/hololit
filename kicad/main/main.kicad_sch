@@ -1606,173 +1606,6 @@
 			)
 			(embedded_fonts no)
 		)
-		(symbol "Diode:1N4007"
-			(pin_numbers
-				(hide yes)
-			)
-			(pin_names
-				(hide yes)
-			)
-			(exclude_from_sim no)
-			(in_bom yes)
-			(on_board yes)
-			(property "Reference" "D"
-				(at 0 2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Value" "1N4007"
-				(at 0 -2.54 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-				)
-			)
-			(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-				(at 0 -4.445 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Device" "D"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "Sim.Pins" "1=K 2=A"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_keywords" "diode"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(property "ki_fp_filters" "D*DO?41*"
-				(at 0 0 0)
-				(effects
-					(font
-						(size 1.27 1.27)
-					)
-					(hide yes)
-				)
-			)
-			(symbol "1N4007_0_1"
-				(polyline
-					(pts
-						(xy -1.27 1.27) (xy -1.27 -1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 1.27) (xy 1.27 -1.27) (xy -1.27 0) (xy 1.27 1.27)
-					)
-					(stroke
-						(width 0.254)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-				(polyline
-					(pts
-						(xy 1.27 0) (xy -1.27 0)
-					)
-					(stroke
-						(width 0)
-						(type default)
-					)
-					(fill
-						(type none)
-					)
-				)
-			)
-			(symbol "1N4007_1_1"
-				(pin passive line
-					(at -3.81 0 0)
-					(length 2.54)
-					(name "K"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "1"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-				(pin passive line
-					(at 3.81 0 180)
-					(length 2.54)
-					(name "A"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-					(number "2"
-						(effects
-							(font
-								(size 1.27 1.27)
-							)
-						)
-					)
-				)
-			)
-			(embedded_fonts no)
-		)
 		(symbol "Diode:SD05_SOD323"
 			(pin_numbers
 				(hide yes)
@@ -2691,6 +2524,126 @@
 			)
 			(embedded_fonts no)
 		)
+		(symbol "easyeda2kicad:SK44BL-TP"
+			(exclude_from_sim no)
+			(in_bom yes)
+			(on_board yes)
+			(property "Reference" "D"
+				(at 0 5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Value" "SK44BL-TP"
+				(at 0 -5.08 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+				)
+			)
+			(property "Footprint" "easyeda2kicad:SMB_L4.6-W3.6-LS5.3-RD"
+				(at 0 -7.62 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MCC_SK44BL-TP_SK44BL-TP_C151740.html"
+				(at 0 -10.16 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "Description" ""
+				(at 0 0 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(property "LCSC Part" "C151740"
+				(at 0 -12.7 0)
+				(effects
+					(font
+						(size 1.27 1.27)
+					)
+					(hide yes)
+				)
+			)
+			(symbol "SK44BL-TP_0_1"
+				(polyline
+					(pts
+						(xy -2.03 1.52) (xy -2.03 1.78) (xy -1.52 1.78) (xy -1.52 -2.03) (xy -1.02 -2.03) (xy -1.02 -1.78)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type none)
+					)
+				)
+				(polyline
+					(pts
+						(xy 1.27 1.52) (xy -1.27 0) (xy 1.27 -1.78) (xy 1.27 1.52)
+					)
+					(stroke
+						(width 0)
+						(type default)
+					)
+					(fill
+						(type background)
+					)
+				)
+				(pin unspecified line
+					(at -5.08 0 0)
+					(length 3.81)
+					(name "C"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "1"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+				(pin unspecified line
+					(at 5.08 0 180)
+					(length 3.81)
+					(name "A"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+					(number "2"
+						(effects
+							(font
+								(size 1.27 1.27)
+							)
+						)
+					)
+				)
+			)
+			(embedded_fonts no)
+		)
 		(symbol "easyeda2kicad:ZX-PH2.0-WT4P"
 			(exclude_from_sim no)
 			(in_bom yes)
@@ -3212,16 +3165,16 @@
 		(uuid "2c8a6888-020b-4e66-bbe6-fb6a89d13d3c")
 	)
 	(junction
-		(at 132.08 90.17)
-		(diameter 0)
-		(color 0 0 0 0)
-		(uuid "40bc43ee-ed42-4c3c-8829-cd27de336240")
-	)
-	(junction
 		(at 111.76 134.62)
 		(diameter 0)
 		(color 0 0 0 0)
 		(uuid "58af3478-8a6d-4983-a0e4-86b566401004")
+	)
+	(junction
+		(at 132.08 88.9)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "5b9b9c4d-f105-4c37-979b-fd7290334fa8")
 	)
 	(junction
 		(at 105.41 90.17)
@@ -3241,12 +3194,18 @@
 		(color 0 0 0 0)
 		(uuid "ccd68157-52f3-457f-a1c6-a3e7997ebd9b")
 	)
+	(junction
+		(at 132.08 99.06)
+		(diameter 0)
+		(color 0 0 0 0)
+		(uuid "fb994814-566e-4c05-8d09-db1c8498efcb")
+	)
 	(no_connect
 		(at 213.36 101.09)
 		(uuid "0366278a-ee6c-4c52-998b-fecbe9cdfc17")
 	)
 	(no_connect
-		(at 104.14 55.88)
+		(at 104.14 45.72)
 		(uuid "088b30b3-0565-4445-82d8-e6a8b03f8457")
 	)
 	(no_connect
@@ -3395,7 +3354,7 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 97.79) (xy 132.08 100.33)
+			(xy 132.08 97.79) (xy 132.08 99.06)
 		)
 		(stroke
 			(width 0)
@@ -3705,13 +3664,23 @@
 	)
 	(wire
 		(pts
-			(xy 132.08 80.01) (xy 132.08 90.17)
+			(xy 132.08 80.01) (xy 132.08 88.9)
 		)
 		(stroke
 			(width 0)
 			(type default)
 		)
 		(uuid "b5264db1-9fa1-4cdc-9bf7-649776c0f4d8")
+	)
+	(wire
+		(pts
+			(xy 132.08 99.06) (xy 132.08 100.33)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "b7ecc8bb-0b76-40d7-a2cc-38a9770ebb2d")
 	)
 	(wire
 		(pts
@@ -3755,6 +3724,16 @@
 	)
 	(wire
 		(pts
+			(xy 101.6 50.8) (xy 104.14 50.8)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "c740840d-c3f8-433c-94d1-9366bce6ed59")
+	)
+	(wire
+		(pts
 			(xy 102.87 107.95) (xy 111.76 107.95)
 		)
 		(stroke
@@ -3762,6 +3741,16 @@
 			(type default)
 		)
 		(uuid "c995c01f-d63e-45f7-984f-af249ebb8485")
+	)
+	(wire
+		(pts
+			(xy 132.08 88.9) (xy 132.08 90.17)
+		)
+		(stroke
+			(width 0)
+			(type default)
+		)
+		(uuid "cf4e1f1f-d2c2-4a28-9cca-042d2df094a5")
 	)
 	(wire
 		(pts
@@ -3965,7 +3954,7 @@
 	)
 	(global_label "VIN"
 		(shape input)
-		(at 104.14 50.8 180)
+		(at 101.6 50.8 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -3975,7 +3964,7 @@
 		)
 		(uuid "2efdd99d-54d7-4fd4-b55f-5d4bb644c601")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 98.1309 50.8 0)
+			(at 95.5909 50.8 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -4493,7 +4482,7 @@
 	)
 	(global_label "VBUS"
 		(shape input)
-		(at 104.14 45.72 180)
+		(at 104.14 55.88 180)
 		(fields_autoplaced yes)
 		(effects
 			(font
@@ -4503,7 +4492,7 @@
 		)
 		(uuid "e494d59a-2021-481a-be36-49817dc208be")
 		(property "Intersheetrefs" "${INTERSHEET_REFS}"
-			(at 96.2562 45.72 0)
+			(at 96.2562 55.88 0)
 			(effects
 				(font
 					(size 1.27 1.27)
@@ -5814,94 +5803,6 @@
 		)
 	)
 	(symbol
-		(lib_id "Diode:1N4007")
-		(at 132.08 93.98 270)
-		(unit 1)
-		(exclude_from_sim no)
-		(in_bom yes)
-		(on_board yes)
-		(dnp no)
-		(fields_autoplaced yes)
-		(uuid "af361ba7-0f55-4c4b-a18a-85a68826dcc3")
-		(property "Reference" "D3"
-			(at 134.62 92.7099 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Value" "1N4007"
-			(at 134.62 95.2499 90)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(justify left)
-			)
-		)
-		(property "Footprint" "Diode_THT:D_DO-41_SOD81_P10.16mm_Horizontal"
-			(at 127.635 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Datasheet" "http://www.vishay.com/docs/88503/1n4001.pdf"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Description" "1000V 1A General Purpose Rectifier Diode, DO-41"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Device" "D"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(property "Sim.Pins" "1=K 2=A"
-			(at 132.08 93.98 0)
-			(effects
-				(font
-					(size 1.27 1.27)
-				)
-				(hide yes)
-			)
-		)
-		(pin "2"
-			(uuid "6cdf0303-39f9-4a08-b166-29f66089baf8")
-		)
-		(pin "1"
-			(uuid "2daf9ce6-ad0f-4bb9-a8fc-35184a05ca9e")
-		)
-		(instances
-			(project ""
-				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
-					(reference "D3")
-					(unit 1)
-				)
-			)
-		)
-	)
-	(symbol
 		(lib_id "Device:R")
 		(at 82.55 58.42 180)
 		(unit 1)
@@ -6873,6 +6774,85 @@
 			(project "main"
 				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
 					(reference "#PWR029")
+					(unit 1)
+				)
+			)
+		)
+	)
+	(symbol
+		(lib_id "easyeda2kicad:SK44BL-TP")
+		(at 132.08 93.98 270)
+		(unit 1)
+		(exclude_from_sim no)
+		(in_bom yes)
+		(on_board yes)
+		(dnp no)
+		(fields_autoplaced yes)
+		(uuid "efc07af0-2cb5-4ae8-ac80-4d39080dcbb7")
+		(property "Reference" "D4"
+			(at 134.62 92.3299 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Value" "SK44BL-TP"
+			(at 134.62 94.8699 90)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(justify left)
+			)
+		)
+		(property "Footprint" "easyeda2kicad:SMB_L4.6-W3.6-LS5.3-RD"
+			(at 124.46 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Datasheet" "https://lcsc.com/product-detail/Schottky-Barrier-Diodes-SBD_MCC_SK44BL-TP_SK44BL-TP_C151740.html"
+			(at 121.92 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "Description" ""
+			(at 132.08 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(property "LCSC Part" "C151740"
+			(at 119.38 93.98 0)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+				(hide yes)
+			)
+		)
+		(pin "1"
+			(uuid "9e323859-9f91-4172-a1d5-ca34b83a7e74")
+		)
+		(pin "2"
+			(uuid "94317024-ba44-4c60-8f7a-43066b9034a3")
+		)
+		(instances
+			(project ""
+				(path "/6c52ee88-cda0-4585-8140-5b6439b12637"
+					(reference "D4")
 					(unit 1)
 				)
 			)
